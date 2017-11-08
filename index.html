@@ -35,7 +35,7 @@
     <hr >  
     <div class="row">
         <div class="col" style="box-shadow: 10px 10px 5px grey;">
-            <video style='object-fit:cover;' src="video.mp4" class='video' controls="controls" autoplay>
+            <video style='object-fit:cover;' src="video.mp4" class='video' controls="controls">
                 <!-- Video with subtitles -->
                 <track kind="subtitles" src="foo.en.vtt" srclang="en" label="English">
             </video>
@@ -48,6 +48,9 @@
             <img src="1a.jpg" alt="Music" width="200" height="200">
         </div>
         <div class="col" id="rotate">
+
+        </div>
+        <div class="col" id="continues">
 
         </div>
     </div>
@@ -72,10 +75,10 @@
         </div> 
     </div>
     <div class="fixedpos">
-        <audio src="video.mp4" controls="controls">
+        <audio src="video.mp4" controls="controls" autoplay>
     </div>
     <div id="foot">
-        
+        <p style="text-align:center;">Copyright 2017</p>
     </div>
 </body>
 </html>
