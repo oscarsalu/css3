@@ -191,6 +191,8 @@ img {
 }
 /* gradient */
 #foot{
+    padding: 20px;
+    text-align: center;
     height: 100px;
     background: rgb(240, 238, 238); /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(rgb(255, 255, 255),rgb(12, 12, 12)); /* For Safari 5.1 to 6.0 */
@@ -241,4 +243,17 @@ img {
     to {
         transform:rotate(360deg);
     }
+}
+
+/* search */
+input[type=text] {
+    width: 60%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
 }
