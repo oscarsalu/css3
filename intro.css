@@ -155,6 +155,7 @@ img {
     -webkit-transform: rotate(20deg); /* Safari */
     transform: rotate(20deg); /* Standard syntax */
 }
+/* pagination */
 .center {
     text-align: center;
 }
@@ -200,6 +201,7 @@ img {
     background: -moz-linear-gradient(rgb(255, 255, 255),rgb(12, 12, 12)); /* For Firefox 3.6 to 15 */
     background: linear-gradient(rgb(255, 255, 255),rgb(12, 12, 12)); /* Standard syntax */
 }
+/* rotating disk */
 #continues {
     margin: 50px;
     width: 210px;
